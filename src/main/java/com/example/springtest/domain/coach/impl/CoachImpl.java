@@ -15,9 +15,8 @@ class CoachImpl implements Coach {
 
     private PrintSomething printSomething;
 
-//    @Lazy
     @Autowired
-//    @Lazy
+    @Lazy
     CoachImpl (PrintSomething p) {
         this.printSomething = p;
     }
